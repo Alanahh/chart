@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        text-align: center;
+    background: lightblue;
+    
+    }
+    .form{
+
+        padding-top: 6%;
+    }
+    .highcharts-background{
+        fill: lightblue;
+    }
+    .highcharts-credits{
+        display: none;
+    }
+    .highcharts-pane{
+        fill: lightgoldenrodyellow;
+    }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <p>Click on input to reset it</p>
+        <input id="input1" name="input1" onclick="this.value=''" value="0" type="text">
+        <p>Press Enter After Input</p>
+        
+  
+       
+    </div>
+    <canvas id="myChart"></canvas>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/highcharts-more.js"></script>
+<script src="http://code.highcharts.com/modules/solid-gauge.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<div id="container" style="min-width: 310px; max-width: 400px; height: 300px; margin: 0 auto"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
